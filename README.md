@@ -38,7 +38,7 @@ mvn springboot:run
 | rota                 | método | descrição                                          
 |----------------------|--------|--------------------------------------------
 | <kbd>/auth/authorize-url</kbd>     | GET | Retorna a URL de autorização para iniciar o fluxo OAuth com o HubSpot. 
-| <kbd>/callback?code=</kbd>     | GET | Recebe o código de autorização fornecido pelo HubSpot e realiza a troca pelo token de acesso.
+| <kbd>/auth/callback?code=</kbd>     | GET | Recebe o código de autorização fornecido pelo HubSpot e realiza a troca pelo token de acesso.
 | <kbd>/contacts</kbd>               | POST | Cria um novo contato.
 | <kbd>/webhook/contact-creation</kbd>                   | POST | Recebe Webhook para Criação de Contatos.
 
